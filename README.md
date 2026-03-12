@@ -1,46 +1,109 @@
-# Getting Started with Create React App
+# ⚡ PollSpark
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**PollSpark** is a high-performance, socially-driven real-time polling platform. Built with a modern tech stack, it allows users to create, participate in, and analyze polls with a premium, app-like experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Key Features
 
-### `npm start`
+### 🗳️ Advanced Poll System
+- **Dynamic Options**: Support for 2 to 6 options per poll.
+- **Image Integration**: Add visual context to poll options.
+- **Privacy Levels**: Create **Public** polls for the global feed or **Unlisted** polls for direct-link-only sharing.
+- **Expiration Control**: Set polls to expire after 1h, 6h, 24h, 7 days, or never.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 📊 Real-Time Analytics
+- **Live Updates**: Vote percentages update instantly as users participate.
+- **Interactive Charts**: Creator-exclusive **Pie Charts** (via Recharts) for visual data breakdown.
+- **Data Export**: Export poll results to **CSV** for external analysis.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 💬 Social Engagement
+- **Engagement Loop**: Like system and real-time threaded comments.
+- **Instant Notifications**: Stay updated when users interact with your polls.
+- **Voter Transparency**: Exclusive "Creator View" to see exactly who voted for which option.
 
-### `npm test`
+### 📱 Premium UX/UI
+- **Glassmorphism Design**: Modern, sleek interface with smooth micro-animations.
+- **Dark/Light Mode**: Full theme support that mirrors user system preferences.
+- **PWA Ready**: Install PollSpark as a home screen app for an offline-ready, mobile-first experience.
+- **Multi-Auth**: Secure login via Google, Email, or traditional password.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔗 Sharing & Embedding
+- **Universal Share**: Native system share sheet integration.
+- **iFrame Embeds**: Generate embed codes to put your polls on any website.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Styled Components](https://styled-components.com/)
+- **State/Backend**: [Firebase](https://firebase.google.com/) (Firestore, Authentication, Hosting)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Charts**: [Recharts](https://recharts.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 1. Clone the repository
+```bash
+git clone https://github.com/PratikHarkare06/PollSpark.git
+cd poll-app
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 3. Environment Setup
+Create a `.env` file in the root directory and add your Firebase configurations:
+```env
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 4. Run Locally
+```bash
+npm start
+```
+The app will be available at `http://localhost:3000`.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Deployment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is configured for **Firebase Hosting**.
+
+1. Build the production bundle:
+   ```bash
+   npm run build
+   ```
+2. Deploy to Firebase:
+   ```bash
+   firebase deploy
+   ```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Open an issue for bugs.
+- Submit pull requests for feature enhancements.
+- Share feedback on the UI/UX.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+**Created with ❤️ by [Pratik Harkare](https://github.com/PratikHarkare06)**
