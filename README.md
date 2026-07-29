@@ -1,8 +1,8 @@
 # ⚡ PollSpark
 
 
-Prototype :
-<img width="1440" height="3200" alt="Home Feed" src="https://github.com/user-attachments/assets/b97c58e6-3c7f-439c-a166-b1778425cf3d" />
+📸 Application Preview
+<img width="1470" height="836" alt="Screenshot 2026-03-11 at 5 33 57 PM" src="https://github.com/user-attachments/assets/e2a95004-e6db-4e53-aa9e-916ea6369090" />
 
 
 **PollSpark** is a high-performance, socially-driven real-time polling platform. Built with a modern tech stack, it allows users to create, participate in, and analyze polls with a premium, app-like experience.
